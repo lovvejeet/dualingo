@@ -93,7 +93,11 @@
 
     align-items: center;
     justify-items: center;
-
+  transition: all .2s ease-in-out;
    
+}
+
+&__btn:hover{
+    background-color: #e9d359;
 }
 }

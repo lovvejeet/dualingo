@@ -9,6 +9,11 @@
         align-items: center;
         justify-content: space-between;
     }
+    @media (min-width: 1440px)
+ {
+    padding-left: 80px;
+    padding-right: 80px;
+}
 
     &__all-lists{
         display: flex;
@@ -20,6 +25,7 @@
          gap: 20px;
         
     }
+
     }
 
 
@@ -109,8 +115,16 @@
 
         align-items: center;
         justify-items: center;
-    }
+        cursor: pointer;
+        transition: all .2s ease-in-out;
 
+    
+    }
+    &__pri-light:hover{
+        background-color: #083156;
+        border-color: #083156;
+        color: #fbe56d;
+        }
     &__pri-dark{
         border-radius: 6px;
         padding: 0 16px;
@@ -132,9 +146,17 @@
 
         align-items: center;
         justify-items: center;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+
+       
     }
 
-
+    &__pri-dark:hover{
+        background-color: #fff;
+        border-color: #3c5d87;
+        color: #3c5d87;
+        }
 
 
     &__select-lan{
